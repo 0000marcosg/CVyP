@@ -4,21 +4,19 @@
 
 _Breve reseña histórica._
 
+[http://www.vam.ac.uk/content/articles/a/computer-art-history/](http://www.vam.ac.uk/content/articles/a/computer-art-history/)
+
+[http://www.visual-arts-cork.com/computer-art.htm](http://www.visual-arts-cork.com/computer-art.htm)
+
+Harold Cohen[ https://en.wikipedia.org/wiki/Harold\\_Cohen\\_\\(artist\\)](https://en.wikipedia.org/wiki/Harold_Cohen_(artist))
+
+Manfred Mohr [http://www.emohr.com/](http://www.emohr.com/)
+
+Michael Noll [https://es.wikipedia.org/wiki/A.\\_Michael\\_Noll](https://en.wikipedia.org/wiki/A._Michael_Noll)
+
+[http://dam.org/artists/phase-one/a-michael-noll/artworks](http://dam.org/artists/phase-one/a-michael-noll/artworks)
 
 
-http://www.vam.ac.uk/content/articles/a/computer-art-history/
-
-http://www.visual-arts-cork.com/computer-art.htm
-
-
-
-
-
-Harold Cohen https://en.wikipedia.org/wiki/Harold\_Cohen\_\(artist\)
-
-Manfred Mohr http://www.emohr.com/
-
-Michael Noll https://es.wikipedia.org/wiki/A.\_Michael\_Noll
 
 //Posibles
 
