@@ -54,6 +54,8 @@ _Breve reseña histórica._
 
 ###### Manifiesto Algorista
 
+[the algorist](http://algorists.org/algorist.html)
+
 Grupo fundado en 1995 que nuclea artistas que trabajaban en la creacion artistica desde la practica y la formulacion de algoritmos.
 
 ```
