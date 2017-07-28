@@ -20,27 +20,15 @@ Michael Noll [https://es.wikipedia.org/wiki/A.\\_Michael\\_Noll](https://en.wiki
 
 [http://dam.org/artists/phase-one/a-michael-noll/artworks](http://dam.org/artists/phase-one/a-michael-noll/artworks)
 
+George Nees [http://dada.compart-bremen.de/item/agent/15 ](http://dada.compart-bremen.de/item/agent/15)
+
+Edward Zajec [http://dada.compart-bremen.de/item/agent/485](http://dada.compart-bremen.de/item/agent/485)
+
+Hiroshi Kawano [http://dada.compart-bremen.de/item/agent/234](http://dada.compart-bremen.de/item/agent/234)
+
 Aaron Koblin [http://proyectoidis.org/aaron-koblin/](http://proyectoidis.org/aaron-koblin/)
 
 Casey Reas[ http://reas.com/](http://reas.com/)
 
 [http://algorists.org/algorist.html](http://algorists.org/algorist.html)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
