@@ -52,7 +52,9 @@ _Breve reseña histórica._
 > 
 > * El algoritmo es independiente de donde se implemente.
 
-######Manifiesto Algorista
+###### Manifiesto Algorista
+
+Grupo fundado en 1995 que nuclea artistas que trabajaban en la creacion artistica desde la practica y la formulacion de algoritmos.
 
 ```
 if (creation && object of art && algorithm && one's own algorithm) {
@@ -64,7 +66,7 @@ if (creation && object of art && algorithm && one's own algorithm) {
 
 ---
 
-### Hello\_World!
+### [Hello\_World!](https://vimeo.com/60731302)
 
 
 
