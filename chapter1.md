@@ -36,5 +36,21 @@ _Breve reseña histórica._
 
 ---
 
+## Algoritmos
+
+> #### _Un algoritmo es una secuencia no ambigua, finita y ordenada de instrucciones que han de seguirse para resolver un problema._
+
+> Características de un algoritmo:
+> 
+> * Tiene que ser preciso.
+> 
+> * Tiene que estar bien definido.
+> 
+> * Tiene que ser finito.
+> 
+> * La programación es adaptar el algoritmo al ordenador.
+> 
+> * El algoritmo es independiente de donde se implemente.
+
 
 
