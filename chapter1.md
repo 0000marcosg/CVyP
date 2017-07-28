@@ -6,6 +6,8 @@ _Breve reseña histórica._
 
 ---
 
+> A comienzos de los 60, personas provenientes de varias disciplinas, tales como la ingenieria, las matematicas, las artes o la filosofia comienzan a investigar en el uso de computadoras en la creacion de piezas y procesos artisticos.  Las investigaciones en este campo abarcan desde la creacion de imagenes abstractas o representativas hasta ploteos generativos, pasando por complejos algoritmos de representacion.
+
 [Ben Laposky](http://dada.compart-bremen.de/item/agent/253)
 
 [Harold Cohen](http://dada.compart-bremen.de/item/agent/67)
@@ -26,7 +28,7 @@ _Breve reseña histórica._
 
 [Frieder Nake](http://dada.compart-bremen.de/item/agent/68)
 
-###### Actualidad
+> ###### Actualidad
 
 [Aaron Koblin](http://proyectoidis.org/aaron-koblin/)
 
