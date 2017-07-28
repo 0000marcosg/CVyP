@@ -52,15 +52,19 @@ _Breve reseña histórica._
 > 
 > * El algoritmo es independiente de donde se implemente.
 
+######Manifiesto Algorista
 
+```
+if (creation && object of art && algorithm && one's own algorithm) {
+    include * an algorist *
+} elseif (!creation || !object of art || !algorithm || !one's own algorithm) {
+    exclude * not an algorist *
+}
+```
 
 ---
 
 ### Hello\_World!
-
-
-
-
 
 
 
