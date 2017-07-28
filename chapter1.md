@@ -4,31 +4,35 @@
 
 _Breve reseña histórica._
 
-[http://www.vam.ac.uk/content/articles/a/computer-art-history/](http://www.vam.ac.uk/content/articles/a/computer-art-history/)
+---
 
-[http://www.visual-arts-cork.com/computer-art.htm](http://www.visual-arts-cork.com/computer-art.htm)
+[Ben Laposky](http://dada.compart-bremen.de/item/agent/253)
 
-Ben Lapovsky [https://es.wikipedia.org/wiki/Ben\_F.\_Laposky](https://es.wikipedia.org/wiki/Ben_F._Laposky)
+[Harold Cohen](http://dada.compart-bremen.de/item/agent/67)
 
-[http://proyectoidis.org/ben-laposky/](http://proyectoidis.org/ben-laposky/)
+[Manfred Mohr](http://dada.compart-bremen.de/item/agent/13)
 
-Harold Cohen[ https://en.wikipedia.org/wiki/Harold\_Cohen\_\\(artist\\)](https://en.wikipedia.org/wiki/Harold_Cohen_(artist)\)
+[Michael Noll](http://dada.compart-bremen.de/item/agent/16)
 
-Manfred Mohr [http://www.emohr.com/](http://www.emohr.com/)
+[George Nees](http://dada.compart-bremen.de/item/agent/15)
 
-Michael Noll [https://es.wikipedia.org/wiki/A.\\_Michael\\_Noll](https://en.wikipedia.org/wiki/A._Michael_Noll)
+[Edward Zajec](http://dada.compart-bremen.de/item/agent/485)
 
-[http://dam.org/artists/phase-one/a-michael-noll/artworks](http://dam.org/artists/phase-one/a-michael-noll/artworks)
+[Hiroshi Kawano](http://dada.compart-bremen.de/item/agent/234)
 
-George Nees [http://dada.compart-bremen.de/item/agent/15 ](http://dada.compart-bremen.de/item/agent/15)
+[Vera Molnar](http://dada.compart-bremen.de/item/agent/14)
 
-Edward Zajec [http://dada.compart-bremen.de/item/agent/485](http://dada.compart-bremen.de/item/agent/485)
+[Herbert Franke](http://dada.compart-bremen.de/item/agent/188)
 
-Hiroshi Kawano [http://dada.compart-bremen.de/item/agent/234](http://dada.compart-bremen.de/item/agent/234)
+[Frieder Nake](http://dada.compart-bremen.de/item/agent/68)
 
-Aaron Koblin [http://proyectoidis.org/aaron-koblin/](http://proyectoidis.org/aaron-koblin/)
+###### Actualidad
 
-Casey Reas[ http://reas.com/](http://reas.com/)
+[Aaron Koblin](http://proyectoidis.org/aaron-koblin/)
 
-[http://algorists.org/algorist.html](http://algorists.org/algorist.html)
+[Casey Reas](http://reas.com/)
+
+---
+
+
 
