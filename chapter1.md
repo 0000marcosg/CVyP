@@ -1,4 +1,4 @@
-# Creacion de imagenes a traves de programacion.
+# Creación de imágenes a través de programación.
 
 ###### En el arte.
 
@@ -6,7 +6,7 @@ _Breve reseña histórica._
 
 ---
 
-> A comienzos de los 60, personas provenientes de varias disciplinas, tales como la ingenieria, las matematicas, las artes o la filosofia comienzan a investigar en el uso de computadoras en la creacion de piezas y procesos artisticos.  Las investigaciones en este campo abarcan desde la creacion de imagenes abstractas o representativas hasta ploteos generativos, pasando por complejos algoritmos de representacion.
+> A comienzos de los 60, personas provenientes de varias disciplinas, tales como la ingeniería, las matemáticas, las artes o la filosofía comienzan a investigar en el uso de computadoras en la creación de piezas y procesos artísticos.  Las investigaciones en este campo abarcan desde la creación de imágenes abstractas o representativas hasta ploteos generativos, pasando por complejos algoritmos de representación.
 
 [Ben Laposky](http://dada.compart-bremen.de/item/agent/253)
 
@@ -39,24 +39,24 @@ _Breve reseña histórica._
 ## Algoritmos y Arte
 
 > #### _Un algoritmo es una secuencia no ambigua, finita y ordenada de instrucciones que han de seguirse para resolver un problema._
-> 
+>
 > Características de un algoritmo:
-> 
+>
 > * Tiene que ser preciso.
-> 
+>
 > * Tiene que estar bien definido.
-> 
+>
 > * Tiene que ser finito.
-> 
+>
 > * La programación es adaptar el algoritmo al ordenador.
-> 
+>
 > * El algoritmo es independiente de donde se implemente.
 
 ###### Manifiesto Algorista
 
 [the algorist](http://algorists.org/algorist.html)
 
-Grupo fundado en 1995 que nuclea artistas que trabajaban en la creacion artistica desde la practica y la formulacion de algoritmos.
+Grupo fundado en 1995 que nuclea artistas que trabajaban en la creación artística desde la practica y la formulación de algoritmos.
 
 ```
 if (creation && object of art && algorithm && one's own algorithm) {
