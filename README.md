@@ -6,7 +6,7 @@ Este curso optativo plantea una introducción a la generación de imágenes digi
 
 ### Contenido temático del curso.
 
-* Introducción a la generación de imágenes a través de la promocionan.
+* Introducción a la generación de imágenes a través de la programación.
   * Historia.
   * Referencias Actuales.
 * Introducción al dibujo a través de la programación.
