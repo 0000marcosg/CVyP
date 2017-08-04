@@ -37,16 +37,16 @@ La diferencia radica en que no existen pixeles negativos en pantalla, por lo cua
 
 El elemento grafico mas simple que podemos dibujar con pixeles \(dejando afuera el punto\) es la lina, un segmento de recta que marca la distancia mas corta entre un punto A y un punto B.
 
-El pseudo-codigo para indicar como dibujar una linea, definiendo la posicion del punto `A(30, 100) y punto B(60, 80)`:
+El pseudo-codigo para indicar como dibujar una linea, definiendo la posicion del punto `A(30, 100) y punto B(110, 120)`:
 
 ```
-Dibujar linea desde (30, 100) a (60, 80).
+Dibujar linea desde (30, 100) a (110, 120).
 ```
 
 Sin embargo, cuando traducimos nuestro pseudo-codigo a la sintaxis correcta en processing el resultado es:
 
 ```
-line(30, 100, 60, 80);
+line(30, 100, 110, 120);
 ```
 
 ```
