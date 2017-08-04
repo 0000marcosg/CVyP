@@ -45,12 +45,12 @@ Este curso optativo plantea una introducción a la generación de imágenes digi
 El curso tiene una duración total de **30 horas**, divididas en 10 encuentros de 3 horas cada uno.
 
 > La aprobación del curso requiere como mínimo un total de asistencia del 80% y la entrega de todas las premisas domiciliarias solicitadas, junto con una premisa de caracter final que englobe todo lo visto en el curso.
+>
+> ###### [Clase / 1](/chapter1.md)
+>
+> ###### [Clase / 2](/clase-2.md)
 
 ### 
-
-
-
-
 
 
 
