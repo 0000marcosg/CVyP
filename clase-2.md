@@ -74,5 +74,17 @@ size(200, 200);
 line(30, 100, 110, 120);
 ```
 
+### Resultado:
+
+![](/assets/uno.png)
+
+> ### Ejercicio:
+>
+> En papel cuadriculado dibujar o dise;ar una composicion utilizando solo formas primitivas, estas son: rectangulos, elipses, lineas, puntos y triangulos.
+>
+> En una segunda hoja, escribir el pseudo-codigo para esa composicion, tratando de descubrir los parametros para todas las formas primitivas.
+
+
+
 
 
