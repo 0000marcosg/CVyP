@@ -13,8 +13,6 @@
 >
 > * Proceso de "Desarrollo en aumento".
 
-
-
 # Computacion Grafica, Pixeles y Coordenadas
 
 El pixel, la unidad grafica minima dentro de una imagen debe ser colocado en su posicion a traves de coordenadas. Este sistema de coordenadas tiene similitudes y diferencias con el de Ejes Cartesianos que estamos mas habituados a ver.
@@ -34,4 +32,28 @@ Por otro lado, el sistema de coordenadas en processing \(y en general otros soft
 ![](http://www.mywonderland.es/curso_js/images/processing/ejes.png)
 
 La diferencia radica en que no existen pixeles negativos en pantalla, por lo cual el punto de origen, es decir donde se cruza el eje x y el eje y, se encuentra en la esquina superior izquierda de la ventana. Los valores de x aumentan a medida que nos movemos a la derecha y los valores de y aumentan a medidad que nos desplazamos hacia abajo.
+
+# Puntos y Lineas
+
+El elemento grafico mas simple que podemos dibujar con pixeles \(dejando afuera el punto\) es la lina, un segmento de recta que marca la distancia mas corta entre un punto A y un punto B.
+
+El pseudo-codigo para indicar como dibujar una linea, definiendo la posicion del punto `A(30, 100) y punto B(60, 80)`:
+
+```
+Dibujar linea desde (30, 100) a (60, 80).
+```
+
+Sin embargo, cuando traducimos nuestro pseudo-codigo a la sintaxis correcta en processing el resultado es:
+
+```
+line(30, 100, 60, 80);
+```
+
+```
+line(Ax, Ay, Bx, By);
+```
+
+`line` es el nombre de la funcion y los elementos dentro de los parentesis son conocidos como `argumentos`, los cuales son valores numericos separados entre si por comas.
+
+Podemos pensar en la funcion como un comando y en los argumentos como los parametros en los que ese comando se va a ejecutar.
 
