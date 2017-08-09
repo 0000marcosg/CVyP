@@ -95,5 +95,22 @@ rect(100, 100, 50, 50);
 
 > #### Para poder trabajar en otros modos de color ver: [colorMode\(\)](https://processing.org/reference/colorMode_.html)
 
+### background\(\);
 
+La funcion background\(\) funciona de manera similar a la funcion fill\(\), pero en lugar de rellenar el interior de una figura rellena toda la ventana con el color marcado.
+
+```Processing
+size(300,300);
+background(255);
+
+stroke(255, 0, 0);
+fill(0, 0, 150);
+ellipse(150, 150, 80, 80);
+
+stroke(0, 0, 255);
+fill(120, 0, 0, 180);
+rect(100, 100, 50, 50);
+```
+
+![](/assets/cuatro.jpg)
 
