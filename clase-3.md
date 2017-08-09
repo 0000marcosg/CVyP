@@ -122,7 +122,7 @@ Hasta el momento, venimos ordenando funciones e intrucciones en Processing para 
 
 Estamos dejando afuera uno de los elementos basicos: el flujo.
 
-El flujo del software define la manera en la que este funciona y se ejecuta. 
+El flujo del software define la manera en la que este funciona y se ejecuta.
 
 Podemos encontrar dentro del software dos tipos de flujo:
 
@@ -138,10 +138,9 @@ Con los elementos de flujo entra un concepto conocido como "Bloques de Codigo".
 
 
     //Nuestro flamante programa
-    
+
 
 }//Cerramos bloque de codigo
-
 ```
 
 En Processing, cuando entramos en el processo de crear graficos de manera dinamica, es decir con bloques de codigo y animaciones, debemos separar el programa en dos bloques principales.
@@ -160,7 +159,7 @@ draw{
 }
 ```
 
+El bloque setup corresponde a la parte de nuestro programa que no necesitamos que se ejecute mas de una vez, es la instancia de configuracion y preparacion.
 
-
-
+El bloque draw lleva en su interior todos elementos que necesitamos cambien o se modifiquen durante la ejecucion del software, es un bloque dinamico. Se repite de manera indefinida, es decir, cuando el programa termina de ejecutar la ultima linea del bloque draw, vuelve a la primera del mismo.
 
