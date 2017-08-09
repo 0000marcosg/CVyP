@@ -114,3 +114,53 @@ rect(100, 100, 50, 50);
 
 ![](/assets/cuatro.jpg)
 
+---
+
+# Flow, Flujo del programa
+
+Hasta el momento, venimos ordenando funciones e intrucciones en Processing para ir dibujando elementos en pantalla, pero realmente aun no estamos programando en el sentido mas amplio del concepto.
+
+Estamos dejando afuera uno de los elementos basicos: el flujo.
+
+El flujo del software define la manera en la que este funciona y se ejecuta. 
+
+Podemos encontrar dentro del software dos tipos de flujo:
+
+* ##### Basado en Eventos - Por ejemplo, aplicaciones web. Un evento se dispara cuando el usuario hace click, luego otro evento le sigue. Si el usuario no hace nada, el software no hace nada.
+* ##### Basado en Loops - Un videojuego es un ejemplo de Flujo basado en Loop. Los enemigos, personajes, entorno se siguen manifestando y ejecutando en base a sus parametros en una repeticion constante hasta que algo los detenga.
+
+En processing podremos hacer uso de ambos.
+
+Con los elementos de flujo entra un concepto conocido como "Bloques de Codigo".
+
+```
+{ //Abrimos bloque de codigo
+
+
+    //Nuestro flamante programa
+    
+
+}//Cerramos bloque de codigo
+
+```
+
+En Processing, cuando entramos en el processo de crear graficos de manera dinamica, es decir con bloques de codigo y animaciones, debemos separar el programa en dos bloques principales.
+
+```
+setup{
+
+//Este bloque de codigo se ejecuta solo cuando comienza el programa y no vuelve a ejecutarse.
+
+}
+
+draw{
+
+//Este bloque de codigo se ejecuta de manera indefinida o hasta que el software se detenga.
+
+}
+```
+
+
+
+
+
