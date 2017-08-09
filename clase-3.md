@@ -1,0 +1,99 @@
+# Relleno y bordes
+
+En processing las figuras primitivas como las vistas hasta ahora estan compuestas por dos elementos, un elemento de borde `stroke` y un elemento de interior, o relleno `fill`
+
+## `stroke();`
+
+Define el color de la linea de borde de una figura.
+
+## fill`();`
+
+Define el color de relleno de una figura.
+
+> Debemos tener en cuenta que el orden en el que colocamos estos comandos importa. Deben ir siempre por delante de la funcion que dibuja la figura a la cual queremos aplicarle estas propiedades, ya que lo que hacen es decirle a Processing como debe preparase para dibujar esa figura.
+
+# Color
+
+Existen varias maneras de procesar el color en Processing, por lo pronto solo nos vamos a enfocar en el uso de dos de ellas.
+
+### RGB
+
+El modo por defecto en el que se tratan los colores en Processing es en base a valores numericos correspondientes a los canales RGB.
+
+Estos canales \(Red, Green, Blue\) corresponden a los tres colores primarios de la luz y se combinan para formar el resto.
+
+En Processing, cada canal se representa con un valor numerico entre 0 y 255 y la sintaxis para definirlo, por ejemplo, en la funcion fill\(\) es la siguiente.
+
+```Processing
+fill(R, G, B);
+
+De esa manera, para obtener un color rojo pleno definimos:
+
+fill(255, 0, 0);
+
+Damos todo el valor posible al canal rojo y dejamos en 0 los demas.
+
+fill(0, 255, 0); //Verde
+fill(0, 0, 255); //Azul
+
+Y de la misma manera:
+fill(255, 255, 255); //Blanco
+fill(0, 0, 0); //Negro
+
+```
+
+Si todos los canales estan en el valor 255 obtenemos el color blanco, al igual que las propiedades de la luz cuando sumamos los tres canales. De la misma manera, si dejamos todos los canales en 0, marcamos la ausencia de luz, por lo que el color resultante es negro.
+
+Ejemplo:
+
+```Processing
+size(300,300);
+
+stroke(255, 0, 0);
+fill(0, 0, 150);
+ellipse(150, 150, 80, 80);
+```
+
+![](/assets/frame.jpg)
+
+### Posibilidades de relleno en fill\(\) y stroke\(\)
+
+Dependiendo de la cantidad de argumentos que le demos a estas dos funciones tendremos varias opciones disponibles.
+
+```Processing
+fill(RGB);
+fill(255);
+Con un parametro, Processing asume que el resto de los parametros son iguales. 
+Es equivalente a fill(255,255,255);
+
+fill(RGB, Alfa);
+fill(255, 255);
+Con dos parametros, el primero corresponde a los tres valores de RGB.
+El segundo canala corresponde al valor de 'Alfa' o transparencia. 0 es totalmente transparente, 255 opaco.
+
+fill(R, G, B);
+fill(0, 120, 255);
+Cada valor corresponde a uno de los canales.
+
+fill(R, G, B, Alfa);
+fill(0, 120, 255, 200);
+Cuatro parametros corresponden a cada uno de los canales RGB, sumado el canal de transparencia.
+
+```
+
+Ejemplo:
+
+```Processing
+size(300,300);
+
+stroke(255, 0, 0);
+fill(0, 0, 150);
+ellipse(150, 150, 80, 80);
+
+stroke(0, 0, 255);
+fill(120, 0, 0, 180);
+rect(100, 100, 50, 50);
+```
+
+![](/assets/tres.jpg)
+
