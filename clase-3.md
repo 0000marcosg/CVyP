@@ -205,5 +205,23 @@ mouseX es una variable de sistema, es decir, integrada en el nucleo de Processin
 >
 > Otras variables de sistema son: [pmouseX](https://processing.org/reference/pmouseX.html), [pmouseY](https://processing.org/reference/pmouseY.html), [width](https://processing.org/reference/width.html) y [heigth](https://processing.org/reference/height.html)
 
+---
 
+# Eventos
+
+Un evento en Processing es un bloque de codigo que se ejecuta solo una vez, no en el sentido del bloque setup, sino en el sentido de que se ejecuta una vez cuando el evento se dispara y espera hasta que sea disparado de nuevo.
+
+```
+void mousePressed() {
+
+
+}
+
+void keyPressed() {
+
+
+}
+```
+
+Por ejemplo, el evento `mousePressed` se dispara cada vez que el mouse es presionado y el evento `keyPressed` se dispara cada vez que una tecla es presionada.
 
