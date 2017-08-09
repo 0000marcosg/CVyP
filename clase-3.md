@@ -163,3 +163,46 @@ El bloque setup corresponde a la parte de nuestro programa que no necesitamos qu
 
 El bloque draw lleva en su interior todos elementos que necesitamos cambien o se modifiquen durante la ejecucion del software, es un bloque dinamico. Se repite de manera indefinida, es decir, cuando el programa termina de ejecutar la ultima linea del bloque draw, vuelve a la primera del mismo.
 
+Sin embargo, la sintaxis para usar estos bloques en Processing es un poco diferente y debemos definirlo de la siguiente manera:
+
+```Processing
+void setup() {
+
+    //Se ejecuta una sola vez.
+
+}
+
+void draw(){
+
+    //Se ejecuta por siempre.
+
+}
+
+```
+
+---
+
+# Variables de Sistema
+
+Las variables, de manera rapida \(ya que profundizaremos mas adelante sobre el concepto\) son elementos capaces de almacenar informacion dinamica en la memoria de nuestra computadora, permitiendonos acceder a esos datos desde cualquier momento del programa.
+
+Por ejemplo, pensemos que queremos dibujar un circulo cuyo valor de posision en X sea el mismo al valor de posicion de X del mouse.
+
+Diriamos:
+
+```
+ellipse(Posision X del mouse, 150, 40, 40);
+```
+
+ Evidentemente, Processing no conoce esa expresion, pero si conoce una variable integrada que nos da ese valor.
+
+```
+ellipse(mouseX, 150, 40, 40);
+```
+
+mouseX es una variable de sistema, es decir, integrada en el nucleo de Processing y nos entrega la posicion X de nuestro mouse dentro de la ventana.
+
+> La correspondiente al eje Y es la funcion mouseY
+
+
+
