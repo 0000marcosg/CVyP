@@ -177,7 +177,6 @@ void draw(){
     //Se ejecuta por siempre.
 
 }
-
 ```
 
 ---
@@ -194,7 +193,7 @@ Diriamos:
 ellipse(Posision X del mouse, 150, 40, 40);
 ```
 
- Evidentemente, Processing no conoce esa expresion, pero si conoce una variable integrada que nos da ese valor.
+Evidentemente, Processing no conoce esa expresion, pero si conoce una variable integrada que nos da ese valor.
 
 ```
 ellipse(mouseX, 150, 40, 40);
@@ -202,7 +201,11 @@ ellipse(mouseX, 150, 40, 40);
 
 mouseX es una variable de sistema, es decir, integrada en el nucleo de Processing y nos entrega la posicion X de nuestro mouse dentro de la ventana.
 
-> La correspondiente al eje Y es la funcion mouseY
+> La correspondiente al eje Y es la funcion mouseY.
+>
+> Otras variables de sistema son: [pmouseX](https://processing.org/reference/pmouseX.html), [pmouseY](https://processing.org/reference/pmouseY.html), [width](https://processing.org/reference/width.html) y [heigth](https://processing.org/reference/height.html)
+
+
 
 
 
