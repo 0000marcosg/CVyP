@@ -207,5 +207,3 @@ mouseX es una variable de sistema, es decir, integrada en el nucleo de Processin
 
 
 
-
-
