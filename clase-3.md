@@ -14,8 +14,6 @@ Define el color de relleno de una figura.
 
 # Color
 
-Existen varias maneras de procesar el color en Processing, por lo pronto solo nos vamos a enfocar en el uso de dos de ellas.
-
 ### RGB
 
 El modo por defecto en el que se tratan los colores en Processing es en base a valores numericos correspondientes a los canales RGB.
@@ -39,7 +37,6 @@ fill(0, 0, 255); //Azul
 Y de la misma manera:
 fill(255, 255, 255); //Blanco
 fill(0, 0, 0); //Negro
-
 ```
 
 Si todos los canales estan en el valor 255 obtenemos el color blanco, al igual que las propiedades de la luz cuando sumamos los tres canales. De la misma manera, si dejamos todos los canales en 0, marcamos la ausencia de luz, por lo que el color resultante es negro.
@@ -78,7 +75,6 @@ Cada valor corresponde a uno de los canales.
 fill(R, G, B, Alfa);
 fill(0, 120, 255, 200);
 Cuatro parametros corresponden a cada uno de los canales RGB, sumado el canal de transparencia.
-
 ```
 
 Ejemplo:
@@ -96,4 +92,8 @@ rect(100, 100, 50, 50);
 ```
 
 ![](/assets/tres.jpg)
+
+> #### Para poder trabajar en otros modos de color ver: [colorMode\(\)](https://processing.org/reference/colorMode_.html)
+
+
 
