@@ -133,7 +133,7 @@ En processing podremos hacer uso de ambos.
 
 Con los elementos de flujo entra un concepto conocido como "Bloques de Codigo".
 
-```
+```Processing
 { //Abrimos bloque de codigo
 
 
@@ -189,13 +189,13 @@ Por ejemplo, pensemos que queremos dibujar un circulo cuyo valor de posision en 
 
 Diriamos:
 
-```
+```Processing
 ellipse(Posision X del mouse, 150, 40, 40);
 ```
 
 Evidentemente, Processing no conoce esa expresion, pero si conoce una variable integrada que nos da ese valor.
 
-```
+```Processing
 ellipse(mouseX, 150, 40, 40);
 ```
 
@@ -211,7 +211,7 @@ mouseX es una variable de sistema, es decir, integrada en el nucleo de Processin
 
 Un evento en Processing es un bloque de codigo que se ejecuta solo una vez, no en el sentido del bloque setup, sino en el sentido de que se ejecuta una vez cuando el evento se dispara y espera hasta que sea disparado de nuevo.
 
-```
+```Processing
 void mousePressed() {
 
 
