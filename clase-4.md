@@ -2,6 +2,30 @@
 
 ¿Qué son los datos? Los datos, con frecuencia son características físicas asociadas a un algo. Por ejemplo, cuando decimos que una persona llamada Juan Pérez, en su registro de conducir figura una M \(por género masculino\) sabemos que ese valor M esta asociado a la persona Juan Pérez. En los sistemas informáticos, los datos son guardados como números y caracteres. Por ejemplo, los ordenadores están constantemente recibiendo datos del mouse y el teclado. Cuando se crea un programa, pueden guardarse datos de, por ejemplo, una forma, un color, o el cambio constante de la posición del mouse.
 
+En programación, las variables son espacios reservados en la memoria que, como su nombre indica, pueden cambiar de contenido a lo largo de la ejecución de un programa. Una variable corresponde a un área reservada en la memoria principal del ordenador.
+
+---
+
+1. `variable a = 0`
+2. Le sumo`2`a la variable`a`
+3. `variable a = 2`
+4. Le sumo`3`a la variable`a`
+5. `variable a = 5`
+
+---
+
+> Para que nuestro código sea más entendible y claro, el identificador de la variable, es decir el nombre de la misma, debe ser mnemotécnico, esto significa que el nombre de la variable debe representar su contenido o su funcion dentro del programa.
+>
+> Por ejemplo, variables con nombres mnemotécnicos:
+>
+> * idioma = 'Español'
+> * dia = 'Lunes'
+> * diasemana = 7
+> * año = 1930
+> * pais = 'República Dominicana'
+> * pi = 3.14
+>   ---
+
 ### Tipos de datos
 
 Processing puede almacenar y modificar muchos tipos de datos, como números, letras, palabras, imágenes, colores, fuentes y valores booleanos \( true y false \). El hecho de guardar datos implica un mayor o menor uso de la memoria del ordenador donde estemos trabajando. No es lo mismo guardar la palabra “Andalucía” que guardar simplemente la “A”. Cada dato es representado como una serie de bits \(0 y 1\). Por ejemplo, 010000100 puede ser interpretado como una letra. Como seres humanos, no hará falta aprender el lenguaje binario para programar, Processing se presta para que el trabajo nos sea mucho más sencillo. Sin embargo, 01000001 puede ser interpretado como al letra “A” o como el número 65. Por lo tanto, es importante definir que tipo de dato estamos trabajando.
@@ -72,9 +96,9 @@ int y = f;          //ERROR – La variable es tipo entero y se le está asignan
 
 ## Condicionales
 
-Las variables pueden tener nombres que describan su contenido. Eso simplifica mucho la tarea a la hora de programar. Además, esto podría ayudar a reducir la cantidad de comentarios. Aún así, queda en el programador elegir que clase de nombres utilizar. Las estructuras condicionales le permiten a un programa saber que línea de código ejecutar y cuales no. Las líneas de código solo serán “visibles” para el programa si se cumple una condición. Permiten al programa diferenciar acciones dependiendo el valor de variables.
+Las estructuras condicionales le permiten a un programa saber que línea de código ejecutar y cuales no. Las líneas de código solo serán “visibles” para el programa si se cumple una condición. Permiten al programa diferenciar acciones dependiendo el valor de variables.
 
-##### Condicionales de Seleccion. {#condicionales-de-seleccion}
+##### Condicionales de Selección. {#condicionales-de-seleccion}
 
 Se chequean condiciones para decidir qué instrucciones ejecutar. Esto implica que algunas instrucciones pueden no ejecutarse.
 
@@ -84,7 +108,7 @@ Se chequean condiciones para decidir qué instrucciones ejecutar. Esto implica q
 
 ### `if-then` {#if-then}
 
-Se evalúa una condición, si ésta se cumple entonces se ejecuta el bloque que tenga en su interior, de lo contrario se continúan ejecutando las instrucciones que siguen a la estructura`if-then`.
+Se evalúa una condición, si ésta se cumple entonces se ejecuta el bloque que tenga en su interior, de lo contrario se continúan ejecutando las instrucciones que siguen a la estructura `if-then`.
 
 ![](https://0000marcosg.gitbooks.io/eypc/content/assets/Flujoifthen.png)
 
@@ -140,7 +164,7 @@ La siguiente tabla muestra todas las operaciones posibles y los resultados:
 
 ## Valores Inesperados
 
-La función random\(\) permite devolver un valor completamente aleatorio e inesperado de un rango especificado por parámetros:
+La función `random()` permite devolver un valor completamente aleatorio e inesperado de un rango especificado por parámetros:
 
 ```
 random(max);
