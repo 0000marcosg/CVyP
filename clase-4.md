@@ -24,9 +24,8 @@ En programación, las variables son espacios reservados en la memoria que, como 
 > * año = 1930
 > * pais = 'República Dominicana'
 > * pi = 3.14
->   ---
 
-### Tipos de datos
+Tipos de datos
 
 Processing puede almacenar y modificar muchos tipos de datos, como números, letras, palabras, imágenes, colores, fuentes y valores booleanos \( true y false \). El hecho de guardar datos implica un mayor o menor uso de la memoria del ordenador donde estemos trabajando. No es lo mismo guardar la palabra “Andalucía” que guardar simplemente la “A”. Cada dato es representado como una serie de bits \(0 y 1\). Por ejemplo, 010000100 puede ser interpretado como una letra. Como seres humanos, no hará falta aprender el lenguaje binario para programar, Processing se presta para que el trabajo nos sea mucho más sencillo. Sin embargo, 01000001 puede ser interpretado como al letra “A” o como el número 65. Por lo tanto, es importante definir que tipo de dato estamos trabajando.
 
