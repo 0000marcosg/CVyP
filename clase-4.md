@@ -72,9 +72,7 @@ int y = f;          //ERROR – La variable es tipo entero y se le está asignan
 
 ## Condicionales
 
-Las variables pueden tener nombres que describan su contenido. Eso simplifica mucho la tarea a la hora de programar. Además, esto podría ayudar a reducir la cantidad de comentarios. Aún así, queda en el programador elegir que clase de nombres utilizar. Las estructuras condicionales le permiten a un programa saber que línea de código ejecutar y cuales no. Las líneas de código solo serán “visibles” para el programa si se cumple una condición. Permiten al programa diferenciar acciones dependiendo el valor de variables. 
-
-
+Las variables pueden tener nombres que describan su contenido. Eso simplifica mucho la tarea a la hora de programar. Además, esto podría ayudar a reducir la cantidad de comentarios. Aún así, queda en el programador elegir que clase de nombres utilizar. Las estructuras condicionales le permiten a un programa saber que línea de código ejecutar y cuales no. Las líneas de código solo serán “visibles” para el programa si se cumple una condición. Permiten al programa diferenciar acciones dependiendo el valor de variables.
 
 ##### Condicionales de Seleccion. {#condicionales-de-seleccion}
 
@@ -122,14 +120,14 @@ Los operadores lógicos se utilizan al combinar dos o mas expresiones relacional
 | Operador | Significado |
 | :--- | :--- |
 | && | Y |
-| \|\|  | O |
+| \|\| | O |
 | ! | NO |
 
 La siguiente tabla muestra todas las operaciones posibles y los resultados:
 
 | Expresión | Evaluación |
 | :---: | :---: |
-| true && true  | true |
+| true && true | true |
 | true && false | false |
 | false && false | false |
 | true \|\| true | true |
@@ -138,12 +136,26 @@ La siguiente tabla muestra todas las operaciones posibles y los resultados:
 | !true | false |
 | !false | true |
 
-|  |
-| :--- |
+---
 
+## Valores Inesperados
 
-  
+La función random\(\) permite devolver un valor completamente aleatorio e inesperado de un rango especificado por parámetros:
 
+```
+random(max);
+random(min, max);
+```
 
+La función regresa un valor aleatorio decimal \( float \) desde el 0 hasta el parámetro alto. Otra forma de ingresar parámetros a la función es a través de dos parámetros en lugar de uno solo. El valor bajo será el primer valor del rango, y el valor alto será el último. Eso significa que si ingresamos el valor 3 primero, y luego el valor 5, nos devolverá un valor aleatorio decimal entre, por supuesto, 3 y 5. Además, acepta perfectamente valores negativos.
 
+El valor siempre será del tipo float . Si se deseara obtener un valor aleatorio pero entero \( int \), deberemos recurrir a la función int\(\) para convertirlo.
+
+```
+float f = random(5.2);       //Asigna a f un valor decimal entre 0 y 5.2
+int i = random(5.2);         //ERROR! No se puede asignar un valor aleatorio a una variable int
+int j = int(random(5.2));    //Asigna a j un valor entero entre 0 to 5
+```
+
+Ya que, como queda dicho, los valores que devuelve valores impredecibles, cada vez que el programa se ejecuta obtendremos diferentes resultados. Este número puede ser utilizado para controlar algún aspecto del programa.
 
