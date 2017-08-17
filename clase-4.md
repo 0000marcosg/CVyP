@@ -141,7 +141,7 @@ Podemos realizar varios tipos de comparación y determinar cuando una condición
 Los operadores lógicos se utilizan al combinar dos o mas expresiones relacionales y para invertir los valores lógicos. Los símbolos de los operadores lógicos corresponden a los conceptos de Y, O y NO.
 
 | Operador | Significado |
-| :--- | :--- |
+| :---: | :---: |
 | && | Y |
 | \|\| | O |
 | ! | NO |
