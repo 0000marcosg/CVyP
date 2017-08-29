@@ -28,5 +28,117 @@ returnType NombreFuncion(argumentos){
 }
 ```
 
+Teniendo en cuenta esta sintaxis podemos describir el siguiente ejemplo:
+
+```
+void circuloRojo() {
+    fill(255, 0, 0);
+    ellipse(50,50,20,20);
+}
+```
+
+Esta funcion cuyo nombre es "circuloRojo" ejecuta esas dos simples lineas de codigo que eventualmente van a resultar en un circulo rojo en pantalla, sin embargo, esta es solo la definicion de la funcion. Nunca se va a ejecutar su contenido si no es llamada. 
+
+Para llamarla, la ejecutamos de la siguiente manera, por ejemplo detro de `draw()`:
+
+```
+void draw() {
+    background(255);
+    circuloRojo();
+}
+```
+
+### Modularidad
+
+Utilicemos el ejemplo de una pelota que rebota en los bordes de la pantalla como un codigo a separar en partes y ver sus posibilidades modulares:
+
+```
+// Variables Globales
+int x = 0;
+int vel = 1;
+
+void setup() {
+    size(200,200);
+    smooth();
+}
+
+void draw() {
+    background(255);
+
+    // Movimiento
+    x = x + vel; 
+
+    // Rebote de la pelota
+    if ((x > width) || (x < 0)) {
+        vel = vel * –1;
+    } 
+
+    // Mostrar la pelota
+    stroke(0);
+    fill(175);
+    ellipse(x,100,32,32); 
+}
+```
+
+Una vez que identificamos los elementos que componen nuestro codigo, podemos separarlo en partes y ponerlos en funciones, que luego van a ser llamadas de manera repetida dentro de draw\(\)
+
+```
+posibilidades modulares:
+// Variables Globales
+int x = 0;
+int vel = 1;
+
+void setup() {
+    size(200,200);
+    smooth();
+}
+
+void draw() {
+    background(255);
+    mover();
+    rebotar();
+    mostrar();
+}
+
+void mover() {
+    // Movimiento
+    x = x + vel;
+}
+
+void rebotar() {
+    // Rebote de la pelota
+    if ((x > width) || (x < 0)) {
+        vel = vel * –1;
+    }
+}
+
+void mostrar() {
+    // Mostrar la pelota
+    stroke(0);
+    fill(175);
+    ellipse(x,100,32,32);
+}
+
+```
+
+Las funciones pueden ser declaradas en cualquier parte del programa fuera de draw\(\) y setup\(\), la convencion indica que sean declaradas luego de la funcion draw\(\)
+
+De esta manera nuestro loop principal se transformo en una simple lista de funciones a llamar, esto facilita la lectura del programa asi tambien como la modificacion de cada una de sus partes sin tener que preocuparnos por el resto del programa.
+
+Por ejemplo, podemos cambiar simplemente el contenido de la funcion mostrar\(\) y su funcionamiento seguira siendo el mismo.
+
+```
+void mostrar() {
+  rectMode(CENTER);
+  noFill();
+  stroke(0);
+  rect(x, 100, 32, 32);
+  fill(255);
+  rect(x - 4, 100 - 4, 4, 4);
+  rect(x + 4, 100 - 4, 4, 4);
+  line(x - 4, 100 + 4, x + 4, 100 + 4);
+}
+```
+
 
 
