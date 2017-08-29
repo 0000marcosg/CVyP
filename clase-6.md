@@ -37,7 +37,7 @@ void circuloRojo() {
 }
 ```
 
-Esta funcion cuyo nombre es "circuloRojo" ejecuta esas dos simples lineas de codigo que eventualmente van a resultar en un circulo rojo en pantalla, sin embargo, esta es solo la definicion de la funcion. Nunca se va a ejecutar su contenido si no es llamada. 
+Esta funcion cuyo nombre es "circuloRojo" ejecuta esas dos simples lineas de codigo que eventualmente van a resultar en un circulo rojo en pantalla, sin embargo, esta es solo la definicion de la funcion. Nunca se va a ejecutar su contenido si no es llamada.
 
 Para llamarla, la ejecutamos de la siguiente manera, por ejemplo detro de `draw()`:
 
@@ -80,7 +80,7 @@ void draw() {
 }
 ```
 
-Una vez que identificamos los elementos que componen nuestro codigo, podemos separarlo en partes y ponerlos en funciones, que luego van a ser llamadas de manera repetida dentro de draw\(\)
+Una vez que identificamos los elementos que componen nuestro codigo, podemos separarlo en partes y ponerlos en funciones, que luego van a ser llamadas de manera repetida dentro de `draw()`
 
 ```
 posibilidades modulares:
@@ -118,14 +118,13 @@ void mostrar() {
     fill(175);
     ellipse(x,100,32,32);
 }
-
 ```
 
-Las funciones pueden ser declaradas en cualquier parte del programa fuera de draw\(\) y setup\(\), la convencion indica que sean declaradas luego de la funcion draw\(\)
+Las funciones pueden ser declaradas en cualquier parte del programa fuera de `draw()` y `setup()`, la convencion indica que sean declaradas luego de la funcion `draw()`
 
 De esta manera nuestro loop principal se transformo en una simple lista de funciones a llamar, esto facilita la lectura del programa asi tambien como la modificacion de cada una de sus partes sin tener que preocuparnos por el resto del programa.
 
-Por ejemplo, podemos cambiar simplemente el contenido de la funcion mostrar\(\) y su funcionamiento seguira siendo el mismo.
+Por ejemplo, podemos cambiar simplemente el contenido de la funcion `mostrar()` y su funcionamiento seguira siendo el mismo.
 
 ```
 void mostrar() {
@@ -138,6 +137,19 @@ void mostrar() {
   rect(x + 4, 100 - 4, 4, 4);
   line(x - 4, 100 + 4, x + 4, 100 + 4);
 }
+```
+
+Un gran beneficio del uso de funciones es la posibilidad que nos ofrece a la hora de buscar errores en nuestro programa, pudiendo activar o desactivar elementos de nuestro programa:
+
+```
+void draw() {
+    background(255);
+    //mover();
+    //rebotar();
+    mostrar();
+}
+
+
 ```
 
 
