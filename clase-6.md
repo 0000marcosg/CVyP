@@ -211,7 +211,13 @@ void draw() {
 }
 ```
 
+Los argumentos de una funcion pueden ser pasados a la misma, tanto de manera literal con su valores o variables, asi como resultados de expresiones matematicas:
 
+```
+void draw() {
+  mostrar(100/2, 50 + 50, color(255, 0, 0));
+}
+```
 
 
 
