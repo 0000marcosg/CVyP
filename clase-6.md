@@ -148,8 +148,28 @@ void draw() {
     //rebotar();
     mostrar();
 }
+```
 
+## Argumentos
 
+Los argumentos son valores que le pasamos a la funcion, son parametros en los cuales la funcion se va a ejecutar.
+
+Tomemos como ejemplo la funcion circuloRojo y agregemos un argumento.
+
+```
+void circuloRojo(int diametro) {
+    fill(255, 0, 0);
+    ellipse(50,50, diametro, diametro);
+}
+```
+
+Cuando declaramos una funcion y le agregamos un argumentos, lo que estamos haciendo es crear una variable local que solo puede ser usada dentro de esa funcion.
+
+Cuando llamemos en el draw esta funcion, el valor que agreguemos sera asignado a la variable diametro y el circulo se dibujara al tama;o establecido. 
+
+```
+circuloRojo(20) //El circulo toma un diametro de 20 pixeles
+circuloRojo(80) //El circulo toma un diametro de 80 pixeles
 ```
 
 
