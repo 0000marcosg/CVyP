@@ -165,11 +165,26 @@ void circuloRojo(int diametro) {
 
 Cuando declaramos una funcion y le agregamos un argumentos, lo que estamos haciendo es crear una variable local que solo puede ser usada dentro de esa funcion.
 
-Cuando llamemos en el draw esta funcion, el valor que agreguemos sera asignado a la variable diametro y el circulo se dibujara al tama;o establecido. 
+Cuando llamemos en el draw esta funcion, el valor que agreguemos sera asignado a la variable diametro y el circulo se dibujara al tama;o establecido.
 
 ```
 circuloRojo(20) //El circulo toma un diametro de 20 pixeles
 circuloRojo(80) //El circulo toma un diametro de 80 pixeles
+```
+
+De la misma manera, si usamos el ejemplo de la funcion mover\(\) de la pelota que rebota, podemos agregar un argumento para la velocidad:
+
+```
+void mover(int factorVel) {
+    x = x + (vel * factorVel);
+}
+```
+
+De esta manera multiplicamos la velocidad de movimiento de la pelota:
+
+```
+mover(2) //Se mueve dos veces mas rapido
+mover(5) //se mueve cinco veces mas rapido
 ```
 
 
