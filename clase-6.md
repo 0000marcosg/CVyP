@@ -187,5 +187,31 @@ mover(2) //Se mueve dos veces mas rapido
 mover(5) //se mueve cinco veces mas rapido
 ```
 
+La cantidad de argumentos y los tipos de los mismos no tienen un limite, por ejemplo:
+
+```
+void mostrar(int x, int y, color c) {
+  rectMode(CENTER);
+  noFill();
+  stroke(0);
+  rect(x, y, 32, 32);
+  fill(c);
+  rect(x - 4, y - 4, 4, 4);
+  rect(x + 4, y - 4, 4, 4);
+  line(x - 4, y + 4, x + 4, y + 4);
+}
+```
+
+Variando la cantidad de argumentos y haciendo un correcto uso de ellos se puede reutilizar la funcion con diferencias entre si, por ejemplo:
+
+```
+void draw() {
+  mostrar(50, 100, color(255, 0, 0));
+  mostrar(100, 70, color(0, 0, 200));
+}
+```
+
+
+
 
 
