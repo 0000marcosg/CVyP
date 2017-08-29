@@ -219,5 +219,30 @@ void draw() {
 }
 ```
 
+# Return Type
 
+Hasta ahora todos los ejemplos de funciones que hemos creado tienen como `return type` la palabra `void`, esto indica, sin mas, que la funcion no devuelve ningun valor o dato. Una funcion void o una funcion vacia, simplemente ejecuta las lineas en su interior pero no devuelve ningun resultado de sus calculos.
+
+Un ejemplo de una funcion que retorne un valor seria por ejemplo, si quiseramos crear una funcion que realizara un calculo matematico, por ejemplo una suma.
+
+Definiriamos la funcion de la siguiente manera:
+
+```
+int suma(int valor1, int valor2) {
+    
+    int total = valor1 + valor2
+    return total;
+
+}
+```
+
+Esta simple funcion realiza una suma entre sus dos argumentos, almacena el resultado en una variable llamada total y la devuelve mediante una accion return.
+
+Para ver esta suma en la funcion `draw()` por ejemplo, veriamos lo siguiente:
+
+```
+int totalSuma = suma(10, 5);
+```
+
+La variable entera `totalSuma` sera asignada con el valor que retorne de la funcion `suma()`, en este caso 10 + 5.
 
