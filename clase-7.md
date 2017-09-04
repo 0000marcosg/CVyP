@@ -26,5 +26,5 @@ int [] arrayDeEnteros;
 
 Al igual que una variable, el nombre es totalmente trivial y puede ser cualquier cosa que queramos.
 
-Una cosa a tener en cuenta con las arrays es que su tamaño no puede cambiar 
+Una cosa a tener en cuenta con las arrays es que su tamaño no puede cambiar. Una vez que la declaremos con 10 posiciones, no puede pasar a tener 11 lugares en un determinado momento \(esto es en el caso de processing, en otros lenguajes existen las arrays dinamicas\).
 
