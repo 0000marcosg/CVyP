@@ -46,8 +46,10 @@ float[] puntos = new float[4];        //Una lista de cuatro elementos de tipo fl
 int num = 50;
 int [] puntos = new int [num];     //Se utiliza una variable para declarar la cantidad de elementos
 
-int [] puntos = new int [num*2];    //Se utiliza una expresion para declarar la cantidad de elementos    
+int [] puntos = new int [num*2];    //Se utiliza una expresion para declarar la cantidad de elementos
 ```
 
+### Inicializar el Array
 
+Una manera de inicializar un array es ubicando los valores uno a uno en cada una de las posiciones.
 
