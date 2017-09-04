@@ -28,3 +28,26 @@ Al igual que una variable, el nombre es totalmente trivial y puede ser cualquier
 
 Una cosa a tener en cuenta con las arrays es que su tamaño no puede cambiar. Una vez que la declaremos con 10 posiciones, no puede pasar a tener 11 lugares en un determinado momento \(esto es en el caso de processing, en otros lenguajes existen las arrays dinamicas\).
 
+Sin embargo, en ninguna parte del codigo de arriba definimos el tamaño del array, solo la declaramos, pero debemos asegurarnos de crearla con la cantidad de espacios que vayamos a requerir.
+
+```
+int [] arrayDeEnteros = new int [10];
+```
+
+Al agregar el operador new estamos diciendole a Processing "Crea una nueva array de numeros enteros".
+
+La declaracion de arriba muestra como ese array debe ser declarado, en el cual le indicamos el tipo de dato y la cantidad de elementos que vamos a ubicar, o tecnicamente, le avisamos a Processing cuanta memoria de la computadora vamos a estar usando. El orden como queda marcado es: el operador new, el tipo de dato y la cantidad de elementos, indicado con un numero entero dentro de los parentesis rectos.
+
+El numero de elementos puede ser indicado directamente con numeros, con una variable o como el resultado de expresiones que representen numeros enteros.
+
+```
+float[] puntos = new float[4];        //Una lista de cuatro elementos de tipo float
+
+int num = 50;
+int [] puntos = new int [num];     //Se utiliza una variable para declarar la cantidad de elementos
+
+int [] puntos = new int [num*2];    //Se utiliza una expresion para declarar la cantidad de elementos    
+```
+
+
+
