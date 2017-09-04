@@ -10,9 +10,21 @@ En una array, cada elemento posee un unico valor de indice, designado por un num
 
 La manera en la que este indice se organiza, como se ve en la imagen de mas abajo es el siguiente: Si tenemos un array de 10 elementos o posiciones, el primero de ellos va a ser nombrado con el indice 0 y el ultimo con el indice 9. Podria llamarnos la atencion el hecho de que el primer elemento sea nombrado con el indice 0, pero refiere a que existe cero distancia entre el comienzo del array y el primer elemento.
 
-![](/assets/array2.png)
+### ![](/assets/array2.png)
 
+### Declaracion de un array
 
+Si tomamos como referencia que para crear una variable debiamos indicar un tipo de dato \(int, float, bool, etc.\) debemos saber que no existe diferencia con el respecto a las arrays. Sin embargo, la sintaxis es diferente.
 
+Creamos un array colocanto un par de parentesis rectos \( \[ \] \) luego del tipo de dato y el nombre del array.
 
+Por ejemplo, un array de numero enteros seria definida de la siguiente manera:
+
+```
+int [] arrayDeEnteros;
+```
+
+Al igual que una variable, el nombre es totalmente trivial y puede ser cualquier cosa que queramos.
+
+Una cosa a tener en cuenta con las arrays es que su tamaño no puede cambiar 
 
