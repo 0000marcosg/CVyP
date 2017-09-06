@@ -84,11 +84,9 @@ Podemos hacer una analogia entre las clases en programacion y las clases que com
 
 ![](/assets/clase.png)
 
-Por ejemplo, la clase Manzana contiene dos campos, o variables, una para su color y otra para su peso, y por otra parte posee tres metodos o funciones que definen su manera de manifestarse. 
+Por ejemplo, la clase Manzana contiene dos campos, o variables, una para su color y otra para su peso, y por otra parte posee tres metodos o funciones que definen su manera de manifestarse.
 
 Sus campos o propiedades en relacion con sus metodos o funciones son las que definen el comportamiento del objeto manzana en su universo.
 
-Debemos pensar en la Clase como la definicion de un Objeto. Un objeto existe cuando sus campos o propiedades son completados y sus funciones ejecutadas.
-
-
+Debemos pensar en la Clase como la definicion de un Objeto. Un objeto existe cuando sus campos o propiedades son completados y sus funciones ejecutadas. 
 
