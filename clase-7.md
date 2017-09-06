@@ -90,5 +90,30 @@ Sus campos o propiedades en relacion con sus metodos o funciones son las que def
 
 Debemos pensar en la Clase como la definicion de un Objeto. Un objeto existe cuando sus campos o propiedades son completados y sus funciones ejecutadas.
 
+## La clase PImage
+
+La clase PImage es una clase definida por Processing que nos permite cargar y modificar imagenes.
+
+```Processing
+// Declaramos la clase PImage;
+
+PImage img;
+
+void setup() {
+    size(320,240);
+    
+    //Creamos una nueva instancia de la clase PImage, es decir, crear un objeto con las caracteristicas
+    img = loadImage( " mysummervacation.jpg " );
+}
+
+void draw() {
+
+    background(0);
+    
+    //La funcion image() muestra una instancia de PImage en la ventana de Processing.
+    image(img,0,0);
+}
+```
+
 
 
