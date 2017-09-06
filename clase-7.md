@@ -20,7 +20,7 @@ Creamos un array colocanto un par de parentesis rectos \( \[ \] \) luego del tip
 
 Por ejemplo, un array de numero enteros seria definida de la siguiente manera:
 
-```
+```Processing
 int [] arrayDeEnteros;
 ```
 
@@ -30,7 +30,7 @@ Una cosa a tener en cuenta con las arrays es que su tamaño no puede cambiar. Un
 
 Sin embargo, en ninguna parte del codigo de arriba definimos el tamaño del array, solo la declaramos, pero debemos asegurarnos de crearla con la cantidad de espacios que vayamos a requerir.
 
-```
+```Processing
 int [] arrayDeEnteros = new int [10];
 ```
 
@@ -40,7 +40,7 @@ La declaracion de arriba muestra como ese array debe ser declarado, en el cual l
 
 El numero de elementos puede ser indicado directamente con numeros, con una variable o como el resultado de expresiones que representen numeros enteros.
 
-```
+```Processing
 float[] puntos = new float[4];        //Una lista de cuatro elementos de tipo float
 
 int num = 50;
@@ -52,4 +52,21 @@ int [] puntos = new int [num*2];    //Se utiliza una expresion para declarar la 
 ### Inicializar el Array
 
 Una manera de inicializar un array es ubicando los valores uno a uno en cada una de las posiciones.
+
+```Processing
+int [] cosas = new int [3];
+
+cosas[0] = 8;    //El primer elemento del array equivale a 8
+cosas[1] = 3;    //El segundo elemento del array equivale a 3
+cosas[2] = 12;    //El tercer elemento del array equivale a 12
+```
+
+Otra manera de inicializar la lista es ingresando manualmente toda la lista de valores dentro de llaves curvas.
+
+```Processing
+int[] arrayDeEnteros = { 1, 5, 8, 9, 4, 5 };
+float[] arrayDeFloat = { 1.2, 3.5, 2.0, 3.4123, 9.9 };
+```
+
+
 
