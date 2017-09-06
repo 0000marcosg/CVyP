@@ -88,5 +88,7 @@ Por ejemplo, la clase Manzana contiene dos campos, o variables, una para su colo
 
 Sus campos o propiedades en relacion con sus metodos o funciones son las que definen el comportamiento del objeto manzana en su universo.
 
-Debemos pensar en la Clase como la definicion de un Objeto. Un objeto existe cuando sus campos o propiedades son completados y sus funciones ejecutadas. 
+Debemos pensar en la Clase como la definicion de un Objeto. Un objeto existe cuando sus campos o propiedades son completados y sus funciones ejecutadas.
+
+
 
