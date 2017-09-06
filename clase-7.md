@@ -101,7 +101,7 @@ PImage img;
 
 void setup() {
     size(320,240);
-    
+
     //Creamos una nueva instancia de la clase PImage, es decir, crear un objeto con las caracteristicas
     img = loadImage( " mysummervacation.jpg " );
 }
@@ -109,11 +109,17 @@ void setup() {
 void draw() {
 
     background(0);
-    
+
     //La funcion image() muestra una instancia de PImage en la ventana de Processing.
     image(img,0,0);
 }
 ```
+
+---
+
+> ##### Ejercicio:
+>
+> ##### Crear una composicion que utilice mas de una imagen y elementos de dibujo vistos hasta ahora.
 
 
 
