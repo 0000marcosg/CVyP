@@ -45,7 +45,7 @@ Dibujar linea desde (30, 100) a (110, 120).
 
 Sin embargo, cuando traducimos nuestro pseudo-codigo a la sintaxis correcta en processing el resultado es:
 
-```
+```processing
 line(30, 100, 110, 120);
 ```
 
