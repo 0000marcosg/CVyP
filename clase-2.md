@@ -69,7 +69,7 @@ Sin embargo, para que el sistema de coordenadas en processing funcione como quer
 
 Por defecto, Processing usa un tamaño de 100 pixeles por 100 pixeles. En este caso podemos usar una ventana de 200 por 200 para poder visualizar correctamente la linea.
 
-```
+```Processing
 size(200, 200);
 line(30, 100, 110, 120);
 ```
