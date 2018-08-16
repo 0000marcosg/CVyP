@@ -47,7 +47,7 @@ El curso tiene una duración total de **30 horas**, divididas en 10 encuentros d
 > La aprobación del curso requiere como mínimo un total de asistencia del 80% y la entrega de todas las premisas domiciliarias solicitadas, junto con una premisa de carácter final que englobe todo lo visto en el curso.
 >
 > [Clase / 1](/clase-1.md)
-
+>
 > [Clase / 2](/clase-2.md)
 >
 
