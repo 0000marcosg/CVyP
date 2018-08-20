@@ -51,7 +51,7 @@ fill(0, 0, 150);
 ellipse(150, 150, 80, 80);
 ```
 
-![](/assets/2import.png)
+![]({{site.url}}{{site.baseurl}}/assets/2import.png)
 
 ### Posibilidades de relleno en fill\(\) y stroke\(\)
 
