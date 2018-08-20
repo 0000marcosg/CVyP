@@ -91,7 +91,7 @@ fill(120, 0, 0, 180);
 rect(100, 100, 50, 50);
 ```
 
-![](/assets/3import.png)
+![]({{site.url}}{{site.baseurl}}/assets/3import.png)
 
 > #### Para poder trabajar en otros modos de color ver: [colorMode\(\)](https://processing.org/reference/colorMode_.html)
 
@@ -112,7 +112,7 @@ fill(120, 0, 0, 180);
 rect(100, 100, 50, 50);
 ```
 
-![](/assets/4import.png)
+![]({{site.url}}{{site.baseurl}}/assets/4import.png)
 
 ---
 
