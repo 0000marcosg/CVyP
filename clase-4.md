@@ -109,9 +109,9 @@ Se chequean condiciones para decidir qué instrucciones ejecutar. Esto implica q
 
 ---
 
-### `si-entonces` 
+### si-entonces 
 
-### `if-then` 
+### if-then 
 
 Se evalúa una condición, si ésta se cumple entonces se ejecuta el bloque que tenga en su interior, de lo contrario se continúan ejecutando las instrucciones que siguen a la estructura `if-then`.
 
@@ -119,9 +119,9 @@ Se evalúa una condición, si ésta se cumple entonces se ejecuta el bloque que 
 
 ---
 
-### `si-no-entonces` 
+### si-no-entonces 
 
-### `if-then-else` 
+### if-then-else 
 
 Se evalúa una condición, si ésta se cumple entonces se ejecuta el bloque 1, de lo contrario se pasa a ejecutar el bloque 2.
 
