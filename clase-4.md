@@ -1,6 +1,12 @@
 ## Datos: Variables
 
-¿Qué son los datos? Los datos, con frecuencia son características físicas asociadas a un algo. Por ejemplo, cuando decimos que una persona llamada Juan Pérez, en su registro de conducir figura una M \(por género masculino\) sabemos que ese valor M esta asociado a la persona Juan Pérez. En los sistemas informáticos, los datos son guardados como números y caracteres. Por ejemplo, los ordenadores están constantemente recibiendo datos del mouse y el teclado. Cuando se crea un programa, pueden guardarse datos de, por ejemplo, una forma, un color, o el cambio constante de la posición del mouse.
+¿Qué son los datos? En informática, los datos son representaciones simbólicas (vale decir: numéricas, alfabéticas, algorítmicas, etc.) de un determinado atributo o variable cualitativa o cuantitativa, o sea: la descripción codificada de un hecho empírico, un suceso, una entidad.
+
+Los datos son, así, la información (valores o referentes) que recibe el computador a través de distintos medios, y que es manipulada mediante el procesamiento de los algoritmos de programación. Su contenido puede ser prácticamente cualquiera: estadísticas, números, descriptores, que por separado no tienen relevancia para los usuarios del sistema, pero que en conjunto pueden ser interpretados para obtener una información completa y específica.
+
+En los lenguajes de programación, empleados para crear y organizar los algoritmos que todo sistema informático o computacional persigue, los datos son la expresión de las características puntuales de las entidades sobre las cuales operan dichos algoritmos. Es decir, son el input inicial, a partir del cual puede procesarse y componerse la información.
+
+Fuente: https://concepto.de/dato-en-informatica/#ixzz5POlIsw8j
 
 En programación, las variables son espacios reservados en la memoria que, como su nombre indica, pueden cambiar de contenido a lo largo de la ejecución de un programa. Una variable corresponde a un área reservada en la memoria principal del ordenador.
 
