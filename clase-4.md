@@ -133,12 +133,12 @@ Podemos realizar varios tipos de comparación y determinar cuando una condición
 
 | Operador | Comparación |
 | :--- | :--- |
-| **a == b** | **a **es igual a **b** |
-| **a != b** | **a **es diferente a **b** |
-| **a &lt; b** | **a **es menor a **b** |
-| **a &gt; b** | **a **es mayor a **b** |
-| **a &lt;= b** | **a **es menor o igual a **b** |
-| **a &gt;= b** | **a **es mayor o igual a **b** |
+| **a == b** | **a** es igual a **b** |
+| **a != b** | **a** es diferente a **b** |
+| **a &lt; b** | **a** es menor a **b** |
+| **a &gt; b** | **a** es mayor a **b** |
+| **a &lt;= b** | **a** es menor o igual a **b** |
+| **a &gt;= b** | **a** es mayor o igual a **b** |
 
 ---
 
