@@ -103,15 +103,15 @@ int y = f;          //ERROR – La variable es tipo entero y se le está asignan
 
 Las estructuras condicionales le permiten a un programa saber que línea de código ejecutar y cuales no. Las líneas de código solo serán “visibles” para el programa si se cumple una condición. Permiten al programa diferenciar acciones dependiendo el valor de variables.
 
-##### Condicionales de Selección. {#condicionales-de-seleccion}
+##### Condicionales de Selección.
 
 Se chequean condiciones para decidir qué instrucciones ejecutar. Esto implica que algunas instrucciones pueden no ejecutarse.
 
 ---
 
-### `si-entonces` {#si-entonces}
+### `si-entonces` 
 
-### `if-then` {#if-then}
+### `if-then` 
 
 Se evalúa una condición, si ésta se cumple entonces se ejecuta el bloque que tenga en su interior, de lo contrario se continúan ejecutando las instrucciones que siguen a la estructura `if-then`.
 
@@ -119,9 +119,9 @@ Se evalúa una condición, si ésta se cumple entonces se ejecuta el bloque que 
 
 ---
 
-### `si-no-entonces` {#si-no-entonces}
+### `si-no-entonces` 
 
-### `if-then-else` {#if-then-else}
+### `if-then-else` 
 
 Se evalúa una condición, si ésta se cumple entonces se ejecuta el bloque 1, de lo contrario se pasa a ejecutar el bloque 2.
 
