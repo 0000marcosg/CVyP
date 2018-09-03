@@ -61,7 +61,8 @@ for (int i = 20; i < 80; i += 5) {
 }
 ```
 
-![](/assets/5import.png)
+![]({{site.url}}{{site.baseurl}}/assets/5import.png)
+
 
 ```
 for (int x = -16; x < 100; x += 10) {
@@ -75,7 +76,7 @@ for (int x = -8; x < 100; x += 10) {
 }
 ```
 
-![](/assets/6import.png)
+![]({{site.url}}{{site.baseurl}}/assets/6import.png)
 
 ```
 noFill();
@@ -84,7 +85,7 @@ for (int d = 150; d > 0; d -= 10) {
 }
 ```
 
-![](/assets/7import.png)
+![]({{site.url}}{{site.baseurl}}/assets/7import.png)
 
 ```
 for (int i = 0; i < 100; i += 2) {
@@ -93,7 +94,7 @@ for (int i = 0; i < 100; i += 2) {
 }
 ```
 
-![](/assets/8import.png)
+![]({{site.url}}{{site.baseurl}}/assets/8import.png)
 
 ### Iteración Anidada
 
@@ -105,7 +106,7 @@ for (int y = 10; y < 100; y += 10) {
 }
 ```
 
-![](/assets/9import.png)
+![]({{site.url}}{{site.baseurl}}/assets/9import.png)
 
 ```
 for (int x = 10; x < 100; x += 10) {
@@ -113,7 +114,7 @@ for (int x = 10; x < 100; x += 10) {
 }
 ```
 
-![](/assets/10import.png)
+![]({{site.url}}{{site.baseurl}}/assets/10import.png)
 
 ```
 for (int y = 10; y < 100; y += 10) {
@@ -123,7 +124,7 @@ for (int y = 10; y < 100; y += 10) {
 }
 ```
 
-![](/assets/11import.png)
+![]({{site.url}}{{site.baseurl}}/assets/11import.png)
 
 La técnica es muy útil para crear fondos, texturas y los conocidos patterns. Los números producidos por las variables de control de repeticiones pueden aplicarse a la posición, al color, al tamaño, a la transparencia o a cualquier otra cosa de atributo visual.
 
@@ -138,7 +139,7 @@ for (int y = -10; y <= 100; y += 10) {
 }
 ```
 
-![](/assets/12import.png)
+![]({{site.url}}{{site.baseurl}}/assets/12import.png)
 
 ```
 for (int y = 1; y < 100; y += 10) {
@@ -149,11 +150,11 @@ for (int y = 1; y < 100; y += 10) {
 }
 ```
 
-![](/assets/13import.png)
+![]({{site.url}}{{site.baseurl}}/assets/13import.png)
 
 ---
 
-![](/assets/14import.png)
+![]({{site.url}}{{site.baseurl}}/assets/14import.png)
 
 > #### Ejercicio:
 >
