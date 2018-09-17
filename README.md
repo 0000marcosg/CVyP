@@ -56,6 +56,10 @@ El curso tiene una duración total de **30 horas**, divididas en 10 encuentros d
 >
 > [Clase / 5](/clase-5.md)
 >
+> [Clase / 6](/clase-6.md)
+>
+> [Clase / 7](/clase-7Ejercicio.md)
+>
 
 
 
