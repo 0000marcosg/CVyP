@@ -43,3 +43,11 @@ void draw() {
 
     Ejercicio:
     Crear una composicion que utilice mas de una imagen y elementos de dibujo vistos hasta ahora.
+    
+---
+
+### Funciones adicionales para trabajar con Imagenes.
+#### [tint()](https://processing.org/reference/tint_.html)
+#### [get()](https://processing.org/reference/get_.html)
+#### [blend()](https://processing.org/reference/blend_.html)
+#### [filter()](https://processing.org/reference/filter_.html)
