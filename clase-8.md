@@ -10,7 +10,7 @@ Si pensamos en las variables como un elemento capaz de cambiar de valor durante 
 
 Podemos hacer una analogia entre las clases en programacion y las clases que componen a los elementos de nuestro mundo fisico:
 
-![](/assets/17import.png)
+![]({{site.url}}{{site.baseurl}}/assets/17import.png)
 
 Por ejemplo, la clase Manzana contiene dos campos, o variables, una para su color y otra para su peso, y por otra parte posee tres metodos o funciones que definen su manera de manifestarse.
 
