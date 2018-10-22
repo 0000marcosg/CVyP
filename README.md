@@ -1,6 +1,6 @@
 # Creación Visual a través de la Programación
 
-##### Curso Optativo. Área de los Lenguajes Computarizados, IENBA, UdelaR. 2017.
+##### Curso Optativo. Área de los Lenguajes Computarizados, IENBA, UdelaR. 2018.
 
 Este curso optativo plantea una introducción a la generación de imágenes digitales desde el código y la programación. Generando un enfoque práctico a los lenguajes de programación más usados en el campo artístico como herramientas fundamentales para la generación de imágenes de carácter creativo a partir de procesos informáticos. Tiene como objetivo principal el crear un acercamiento entre los estudiantes y la programación como herramienta para la creación.
 
@@ -60,7 +60,9 @@ El curso tiene una duración total de **30 horas**, divididas en 10 encuentros d
 >
 > [Clase / 7](/clase-7Ejercicio.md)
 >
-> [Clase / 8](/clase-8.md)
+> [Clase / 8 - 9](/clase-8.md)
+>
+> [Clase / 10](/clase-10.md)
 >
 
 
