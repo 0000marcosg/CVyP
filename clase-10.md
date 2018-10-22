@@ -16,7 +16,7 @@ Algunas de las librerias disponibles son desarrolladas por el equipo de desarrol
 
 ##### Foros
 [Processing Forum](https://discourse.processing.org/)  
-[Reddit](https://www.reddit.com/r/processing/)
+[r/processing](https://www.reddit.com/r/processing/)
 
 ### Otros elementos
 [p5.js](https://p5js.org/)
